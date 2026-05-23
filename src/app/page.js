@@ -13,86 +13,6 @@ import { Button } from "../components/Button";
 import ContactUs from "../components/ContactUs";
 import { cn } from "../lib/utils";
 
-const collageCards = [
-  {
-    id: "left",
-    alt: "Creator in neon lighting",
-    image:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80",
-    className:
-      "min-h-[230px] sm:min-h-[300px] lg:col-span-1 lg:row-span-2 lg:min-h-[440px] xl:min-h-[470px]",
-    imageClass: "object-[42%_50%]",
-    overlay:
-      "bg-[linear-gradient(180deg,rgba(255,255,255,0.08)_0%,rgba(255,43,31,0.22)_54%,rgba(19,4,5,0.28)_100%)]",
-  },
-  {
-    id: "top-left",
-    alt: "Fashion portrait with hat",
-    image:
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80",
-    className:
-      "min-h-[170px] sm:min-h-[205px] lg:col-span-1 lg:row-span-1 lg:min-h-[202px] xl:min-h-[214px]",
-    imageClass: "object-[50%_22%]",
-    overlay:
-      "bg-[linear-gradient(180deg,rgba(255,255,255,0.04)_0%,rgba(0,0,0,0.12)_60%,rgba(0,0,0,0.18)_100%)]",
-  },
-  {
-    id: "bottom-left",
-    alt: "Two creators in matching outfits",
-    image:
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80",
-    className:
-      "min-h-[170px] sm:min-h-[205px] lg:col-span-1 lg:row-span-1 lg:min-h-[202px] xl:min-h-[214px]",
-    imageClass: "object-[50%_20%]",
-    overlay:
-      "bg-[linear-gradient(180deg,rgba(255,93,77,0.08)_0%,rgba(166,28,30,0.22)_52%,rgba(0,0,0,0.18)_100%)]",
-  },
-  {
-    id: "center",
-    alt: "Creator in vibrant red background",
-    image:
-      "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1100&q=80",
-    className:
-      "min-h-[270px] sm:min-h-[350px] lg:col-span-2 lg:row-span-2 lg:min-h-[440px] xl:min-h-[470px]",
-    imageClass: "object-[50%_34%]",
-    overlay:
-      "bg-[linear-gradient(180deg,rgba(255,255,255,0.04)_0%,rgba(255,42,22,0.16)_34%,rgba(0,0,0,0.22)_100%)]",
-  },
-  {
-    id: "top-right",
-    alt: "Portrait lit in blue",
-    image:
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80",
-    className:
-      "min-h-[170px] sm:min-h-[205px] lg:col-span-1 lg:row-span-1 lg:min-h-[202px] xl:min-h-[214px]",
-    imageClass: "object-[50%_32%]",
-    overlay:
-      "bg-[linear-gradient(180deg,rgba(63,78,255,0.22)_0%,rgba(9,9,55,0.28)_100%)]",
-  },
-  {
-    id: "bottom-right",
-    alt: "Person taking a selfie against a warm background",
-    image:
-      "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=900&q=80",
-    className:
-      "min-h-[170px] sm:min-h-[205px] lg:col-span-1 lg:row-span-1 lg:min-h-[202px] xl:min-h-[214px]",
-    imageClass: "object-[50%_26%]",
-    overlay:
-      "bg-[linear-gradient(180deg,rgba(255,193,73,0.1)_0%,rgba(255,105,46,0.16)_100%)]",
-  },
-  {
-    id: "far-right",
-    alt: "Woman in a flowing dress by a window",
-    image:
-      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80",
-    className:
-      "min-h-[230px] sm:min-h-[300px] lg:col-span-1 lg:row-span-2 lg:min-h-[440px] xl:min-h-[470px]",
-    imageClass: "object-[52%_34%]",
-    overlay:
-      "bg-[linear-gradient(180deg,rgba(255,255,255,0.04)_0%,rgba(255,244,212,0.08)_28%,rgba(90,58,24,0.24)_100%)]",
-  },
-];
-
 const services = [
   {
     title: "SEO Mastery",
@@ -201,20 +121,6 @@ const channels = [
   },
 ];
 
-const caseStudies = [
-  {
-    title: "Breaking Through Music Noise",
-    subtitle: "YouTube Campaign",
-    result: "+320% Engagement",
-    image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4",
-  },
-  {
-    title: "Cafe Brand Growth Strategy",
-    subtitle: "Social Media Marketing",
-    result: "1M+ Reach",
-    image: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb",
-  },
-];
 
 const partnerNames = [
   "Amazon",
@@ -271,7 +177,7 @@ const heroFaceColumns = [
     offsetClassName: "lg:pt-12",
     items: [
       {
-        src: "https://i.pinimg.com/736x/fa/1d/c0/fa1dc01e897c19cc9bce4901c48f4fe5.jpg",
+        src: "https://i.pinimg.com/736x/58/04/93/5804938c23728a69b17cc1f6f4eee844.jpg",
         alt: "Portrait of a creator",
       },
       {
@@ -297,11 +203,11 @@ const heroFaceColumns = [
         alt: "Portrait of a creator",
       },
       {
-        src: "https://i.pinimg.com/736x/66/06/d1/6606d19487f4fce06a465a51f0586c62.jpg",
+        src: "https://i.pinimg.com/736x/cf/08/18/cf081847d441aeb9c5ed732da42804f1.jpg",
         alt: "Portrait of a producer",
       },
       {
-        src: "https://i1-c.pinimg.com/1200x/ce/cb/cf/cecbcff491c3f1f18b4ce45b4fb3e9b1.jpg",
+        src: "https://i.pinimg.com/736x/06/d9/2c/06d92c5cc7867b9dd03650999e93fc0e.jpg",
         alt: "Portrait of a strategist",
       },
       {
@@ -565,109 +471,6 @@ function ChannelCard({ channel }) {
   );
 }
 
-// function CaseStudyCard({ study }) {
-//   return (
-//     <div className="overflow-hidden rounded-[24px] border border-[#6f1113] shadow-[0_14px_28px_rgba(0,0,0,0.24)]">
-//       <div
-//         className={cn(
-//           "relative h-[280px] sm:h-[310px] bg-gradient-to-br",
-//           study.imageClass,
-//         )}
-//       >
-//         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.18),transparent_50%)]" />
-//         <div className="absolute inset-0 flex items-center justify-center">
-//           <div className="h-44 w-36 rotate-[-8deg] rounded-[28px] border border-white/70 bg-white/92 shadow-[0_20px_50px_rgba(0,0,0,0.22)] sm:h-52 sm:w-44" />
-//           <div className="absolute bottom-10 left-16 h-24 w-24 rounded-full bg-white/82 blur-[2px] sm:left-20 sm:h-28 sm:w-28" />
-//           <div className="absolute right-6 top-8 h-12 w-12 rounded-full bg-white/78 blur-[1px] sm:right-8 sm:h-14 sm:w-14" />
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// function CaseStudyCard({ study }) {
-//   return (
-//     <div className="group overflow-hidden rounded-[24px] border border-[#6f1113] bg-[#1a0708] shadow-[0_14px_40px_rgba(0,0,0,0.35)]">
-//       {/* Image */}
-//       <div className="relative h-[260px] sm:h-[300px] overflow-hidden">
-//         <img
-//           src={study.image}
-//           alt={study.title}
-//           className="w-full h-full object-cover transition duration-500 group-hover:scale-110"
-//         />
-
-//         {/* Overlay */}
-//         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
-
-//         {/* Top Tag (optional) */}
-//         {study.tag && (
-//           <div className="absolute top-4 left-4 rounded-full bg-white/10 px-4 py-1 text-sm text-white backdrop-blur-md">
-//             {study.tag}
-//           </div>
-//         )}
-
-//         {/* Bottom Content ON IMAGE */}
-//         <div className="absolute bottom-4 left-4 right-4 text-white">
-//           <h3 className="text-[20px] sm:text-[24px] font-semibold leading-tight">
-//             {study.title}
-//           </h3>
-//         </div>
-//       </div>
-
-//       {/* Bottom Info Section */}
-//       <div className="flex items-center justify-between px-5 py-4">
-//         <div>
-//           <p className="text-[14px] text-[#e7b8b6]">{study.subtitle}</p>
-//           <p className="text-[16px] font-semibold text-white">{study.result}</p>
-//         </div>
-
-//         {/* Arrow */}
-//         <div className="text-white text-xl transition group-hover:translate-x-1">
-//           →
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-function CaseStudyCard({ study }) {
-  return (
-    <div className="group relative h-[260px] sm:h-[300px] overflow-hidden rounded-[24px] border border-[#6f1113] cursor-pointer">
-      {/* Background Image */}
-      <img
-        src={study.image}
-        alt={study.title}
-        className="absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-105"
-      />
-
-      {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
-
-      {/* Content (ON IMAGE — IMPORTANT) */}
-      <div className="absolute bottom-6 left-6 right-6 text-white">
-        {/* Title */}
-        <h3 className="text-[22px] sm:text-[26px] font-semibold leading-tight">
-          {study.title}
-        </h3>
-
-        {/* Subtitle */}
-        <p className="mt-2 text-[14px] sm:text-[16px] text-white/80">
-          {study.subtitle}
-        </p>
-
-        {/* Result */}
-        <p className="mt-1 text-[16px] sm:text-[18px] font-medium text-[#ff8b7f]">
-          {study.result}
-        </p>
-      </div>
-
-      {/* Arrow (floating like video) */}
-      <div className="absolute bottom-6 right-6 text-white text-2xl transition group-hover:translate-x-1">
-        →
-      </div>
-    </div>
-  );
-}
 
 function AutoScrollStrip() {
   const reducedMotion = useReducedMotion();
