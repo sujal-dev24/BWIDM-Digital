@@ -1,8 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #110405;
+  --foreground: #f7d7d7;
+  --surface: #1a0708;
+  --surface-strong: #2a0a0b;
+  --border: #6f1113;
+  --accent: #ff2b1f;
+  --accent-strong: #ff5a3c;
+  --muted: #c89a9a;
 }
 
 @theme inline {
@@ -12,15 +18,39 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--background);
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top, rgba(255, 43, 31, 0.18), transparent 34%),
+    linear-gradient(180deg, #130405 0%, #0d0304 45%, #090203 100%);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  background: rgba(255, 43, 31, 0.35);
+  color: #fff7f7;
+}
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 10s linear infinite;
 }
