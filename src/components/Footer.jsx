@@ -86,17 +86,47 @@ export default function Footer() {
         </div>
 
         {/* 🔥 BOTTOM */}
-        <div className="mt-16 pt-6 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-6 relative">
 
-        <Link href="https://novarsistech.com/" target="_blank">
+          {/* LEFT */}
           <p className="text-white/50 text-sm">
-            © 2026 novarsisTech. All rights reserved.
+            © 2026 All rights reserved by BWIDM Digital
           </p>
-        </Link>
 
+          {/* 🔥 CENTER - MAIN ATTRACTION */}
+          <div className="absolute left-1/2 -translate-x-1/2">
+
+            <a
+              href="https://novarsistech.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative inline-block"
+            >
+              {/* Glow Effect */}
+              <span className="absolute inset-0 blur-xl bg-gradient-to-r from-red-500 via-pink-500 to-orange-400 opacity-40 group-hover:opacity-70 transition"></span>
+
+              {/* Text */}
+              <span className="relative text-sm md:text-base font-semibold tracking-wide px-6 py-2 rounded-full border border-white/10 backdrop-blur-md bg-white/5 text-white flex items-center gap-2 group-hover:scale-105 transition">
+
+                <span className="text-white/60">Designed By</span>
+
+                <span className="bg-gradient-to-r from-red-500 via-pink-500 to-orange-400 bg-clip-text text-transparent font-bold">
+                  NovarsisTech
+                </span>
+
+                <span className="opacity-60 group-hover:translate-x-1 transition">
+                  ↗
+                </span>
+
+              </span>
+            </a>
+
+          </div>
+
+          {/* RIGHT */}
           <div className="flex items-center gap-6 text-white/50 text-sm">
-            <Link href="#" className="hover:text-white">Privacy Policy</Link>
-            <Link href="#" className="hover:text-white">Terms</Link>
+            <Link href="#" className="hover:text-white transition">Privacy Policy</Link>
+            <Link href="#" className="hover:text-white transition">Terms</Link>
           </div>
 
         </div>
