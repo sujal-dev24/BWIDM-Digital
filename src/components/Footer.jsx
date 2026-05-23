@@ -89,7 +89,7 @@ export default function Footer() {
         <div className="mt-16 pt-6 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
 
           <p className="text-white/50 text-sm">
-            © 2026 Pariavi Content. All rights reserved.
+            © 2026 BWIDM Digital. All rights reserved.
           </p>
 
           <div className="flex items-center gap-6 text-white/50 text-sm">
