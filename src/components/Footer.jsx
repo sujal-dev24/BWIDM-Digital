@@ -88,9 +88,11 @@ export default function Footer() {
         {/* 🔥 BOTTOM */}
         <div className="mt-16 pt-6 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
 
+        <Link href="https://novarsistech.com/">
           <p className="text-white/50 text-sm">
-            © 2026 BWIDM Digital. All rights reserved.
+            © 2026 novarsisTech. All rights reserved.
           </p>
+        </Link>
 
           <div className="flex items-center gap-6 text-white/50 text-sm">
             <Link href="#" className="hover:text-white">Privacy Policy</Link>
