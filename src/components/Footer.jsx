@@ -88,7 +88,7 @@ export default function Footer() {
         {/* 🔥 BOTTOM */}
         <div className="mt-16 pt-6 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
 
-        <Link href="https://novarsistech.com/">
+        <Link href="https://novarsistech.com/" target="_blank">
           <p className="text-white/50 text-sm">
             © 2026 novarsisTech. All rights reserved.
           </p>
