@@ -111,7 +111,7 @@ export default function Footer() {
                 <span className="text-white/60">Designed By</span>
 
                 <span className="bg-gradient-to-r from-red-500 via-pink-500 to-orange-400 bg-clip-text text-transparent font-bold">
-                  NovarsisTech
+                  Developer Sujal
                 </span>
 
                 <span className="opacity-60 group-hover:translate-x-1 transition">
