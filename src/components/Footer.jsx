@@ -97,7 +97,7 @@ export default function Footer() {
           <div className="absolute left-1/2 -translate-x-1/2">
 
             <a
-              href="https://novarsistech.com/"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative inline-block"
